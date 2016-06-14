@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,10 +38,10 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -141,31 +141,31 @@
 <library>
 <packages>
 <package name="YUN_SHIELD">
-<pad name="D4" x="-60.96" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="A0" x="-58.42" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D3" x="-63.5" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D2" x="-66.04" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D1" x="-68.58" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D0" x="-71.12" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D5" x="-58.42" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D6" x="-55.88" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D7" x="-53.34" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D8" x="-49.276" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D9" x="-46.736" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D10" x="-44.196" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D11" x="-41.656" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="D12" x="-39.116" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="A1" x="-60.96" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="A2" x="-63.5" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="A3" x="-66.04" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="A4" x="-68.58" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="A5" x="-71.12" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="VIN" x="-53.34" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="GND@1" x="-50.8" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="GND@2" x="-48.26" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="5V" x="-45.72" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="3V3" x="-43.18" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="RESET" x="-40.64" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
+<pad name="D4" x="-60.96" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="A0" x="-58.42" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="D3" x="-63.5" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D2" x="-66.04" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D1" x="-68.58" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D0" x="-71.12" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D5" x="-58.42" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D6" x="-55.88" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D7" x="-53.34" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D8" x="-49.276" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D9" x="-46.736" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D10" x="-44.196" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D11" x="-41.656" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="D12" x="-39.116" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="A1" x="-60.96" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="A2" x="-63.5" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="A3" x="-66.04" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="A4" x="-68.58" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="A5" x="-71.12" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="VIN" x="-53.34" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="GND@1" x="-50.8" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="GND@2" x="-48.26" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="5V" x="-45.72" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="3V3" x="-43.18" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
+<pad name="RESET" x="-40.64" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
 <text x="-40.513" y="3.7999" size="1.016" layer="21" font="vector" rot="R90">RESET</text>
 <text x="-43.0073" y="3.81" size="1.016" layer="21" font="vector" rot="R90">3v3</text>
 <text x="-45.8013" y="3.81" size="1.016" layer="21" font="vector" rot="R90">5v</text>
@@ -197,13 +197,13 @@
 <wire x1="-76.2" y1="53.34" x2="-7.62" y2="53.34" width="0.127" layer="22"/>
 <wire x1="-7.62" y1="53.34" x2="-7.62" y2="0" width="0.127" layer="22"/>
 <text x="-41.91" y="19.05" size="1.27" layer="27" rot="R90">YUN SHIELD</text>
-<pad name="IOREF" x="-38.1" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
+<pad name="IOREF" x="-38.1" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R270"/>
 <text x="-37.973" y="3.7999" size="1.016" layer="21" font="vector" rot="R90">IOREF</text>
-<pad name="D13" x="-36.576" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="GND@3" x="-34.036" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
+<pad name="D13" x="-36.576" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="GND@3" x="-34.036" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
 <text x="-35.814" y="49.53" size="1.016" layer="21" font="vector" rot="R180">13</text>
 <text x="-34.544" y="49.53" size="1.016" layer="21" font="vector" rot="R270">GND</text>
-<pad name="AREF" x="-31.496" y="50.8" drill="1" diameter="1.6764" shape="octagon" rot="R180"/>
+<pad name="AREF" x="-31.496" y="50.8" drill="1" diameter="1.6764" shape="long" rot="R90"/>
 <text x="-31.369" y="49.53" size="1.016" layer="21" font="vector" rot="R270">AREF</text>
 <rectangle x1="-24.14" y1="32.65" x2="-2.14" y2="48.65" layer="22" rot="R180"/>
 <rectangle x1="-24.14" y1="5.27" x2="-4.14" y2="10.27" layer="22" rot="R180"/>
@@ -215,6 +215,19 @@
 <text x="-3.175" y="7.62" size="1.27" layer="27">USB KEY</text>
 <text x="-50.3021" y="3.81" size="1.016" layer="21" font="vector" rot="R90">Gnd</text>
 <text x="-50.927" y="0.635" size="1.016" layer="21" font="vector">Power</text>
+<hole x="-73.66" y="35.56" drill="2.2"/>
+<polygon width="0.127" layer="46">
+<vertex x="-26.67" y="49.53"/>
+<vertex x="1.27" y="49.53"/>
+<vertex x="1.27" y="30.48"/>
+<vertex x="-26.67" y="30.48"/>
+</polygon>
+<polygon width="0.127" layer="46">
+<vertex x="0" y="12.7"/>
+<vertex x="-26.67" y="12.7"/>
+<vertex x="-26.67" y="3.81"/>
+<vertex x="0" y="3.81"/>
+</polygon>
 </package>
 </packages>
 <symbols>
